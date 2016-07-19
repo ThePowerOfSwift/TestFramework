@@ -80,7 +80,7 @@ Danny's first attempt at a pod with framework and UI LONGER!
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:dpanzer/TestFramework.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/dpanzer/TestFramework.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
