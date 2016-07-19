@@ -64,7 +64,7 @@ Danny's first attempt at a pod with framework and UI LONGER!
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-   s.platform     = :ios
+  # s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -117,7 +117,7 @@ Danny's first attempt at a pod with framework and UI LONGER!
   #  the lib prefix of their name.
   #
 
-   s.framework  = "UIKit"
+  # s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
@@ -130,7 +130,7 @@ Danny's first attempt at a pod with framework and UI LONGER!
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-   s.requires_arc = true
+  #s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency 'UIAlertView+Blocks', '~> 0.9'
