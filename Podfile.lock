@@ -1,0 +1,12 @@
+PODS:
+  - UIAlertView+Blocks (0.9)
+
+DEPENDENCIES:
+  - UIAlertView+Blocks (~> 0.9)
+
+SPEC CHECKSUMS:
+  UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
+
+PODFILE CHECKSUM: 610b393ea0eb27c615c375e1b29c0e0940bfdf62
+
+COCOAPODS: 1.0.1
