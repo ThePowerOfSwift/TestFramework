@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestFramework"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "A shorter description of TestPod."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ A longer description of TestPod..
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/dpanzer/TestPod.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/dpanzer/TestFramework.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -119,7 +119,7 @@ A longer description of TestPod..
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-s.vendored_frameworks = "TestFramework.framework"
+s.vendored_frameworks = "Library/TestFramework.framework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
