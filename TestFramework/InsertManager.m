@@ -9,7 +9,7 @@
 #import "InsertManager.h"
 #import "CustomView.h"
 
-@import UIAlertView_Blocks;
+#import <UIAlertView+Blocks/UIAlertView+Blocks.h>
 
 @interface InsertManager()
 

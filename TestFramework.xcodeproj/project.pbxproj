@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		94FB5E568CBDB11601760F90 /* libPods-TestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5ECDD060FB863F213942CA6 /* libPods-TestFramework.a */; };
 		B9838ADD1D3D597300E4B501 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B9838ADC1D3D597300E4B501 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9838AE61D3D599200E4B501 /* InsertManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B9838AE41D3D599200E4B501 /* InsertManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9838AE71D3D599200E4B501 /* InsertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B9838AE51D3D599200E4B501 /* InsertManager.m */; };
@@ -28,12 +29,10 @@
 		B9838AEB1D3D5AAE00E4B501 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9838AE91D3D5AAE00E4B501 /* CustomView.m */; };
 		B9838AED1D3D5B3F00E4B501 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9838AEC1D3D5B3F00E4B501 /* CustomView.xib */; };
 		B9838AEF1D3D5BAD00E4B501 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9838AEE1D3D5BAD00E4B501 /* splash@2x.png */; };
-		E92F083079D22703A5E222E4 /* Pods_TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F4F8200B3CD5CB6D317651 /* Pods_TestFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0911D9DC73919164C6297199 /* Pods-TestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestFramework/Pods-TestFramework.release.xcconfig"; sourceTree = "<group>"; };
-		24F4F8200B3CD5CB6D317651 /* Pods_TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF6604DD86257551AECB923 /* Pods-TestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestFramework/Pods-TestFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		B9838AD91D3D597300E4B501 /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9838ADC1D3D597300E4B501 /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
@@ -44,6 +43,7 @@
 		B9838AE91D3D5AAE00E4B501 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 		B9838AEC1D3D5B3F00E4B501 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 		B9838AEE1D3D5BAD00E4B501 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
+		C5ECDD060FB863F213942CA6 /* libPods-TestFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E92F083079D22703A5E222E4 /* Pods_TestFramework.framework in Frameworks */,
+				94FB5E568CBDB11601760F90 /* libPods-TestFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +61,7 @@
 		B0582A8CDE5E2084DE12C77D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				24F4F8200B3CD5CB6D317651 /* Pods_TestFramework.framework */,
+				C5ECDD060FB863F213942CA6 /* libPods-TestFramework.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -417,6 +417,7 @@
 				B9FBB7B11D42524D007A6095 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

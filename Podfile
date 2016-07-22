@@ -2,7 +2,7 @@
 platform :ios, '8.0'
 
 target 'TestFramework' do
-  use_frameworks!
+  #use_frameworks!
 
   pod 'UIAlertView+Blocks', '~> 0.9'
 

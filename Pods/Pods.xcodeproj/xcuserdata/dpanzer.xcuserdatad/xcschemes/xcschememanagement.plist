@@ -8,25 +8,21 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 		<key>UIAlertView+Blocks.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>757D3BE8CD32B6167336ED02EDFB2A9F</key>
+		<key>638CAE329D96609CA242FEC19A5BBF59</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C460A8F281E6F026BF5A36485DE786A3</key>
+		<key>D66121B28564FB9BC0DA9722AC2FC229</key>
 		<dict>
 			<key>primary</key>
 			<true/>
