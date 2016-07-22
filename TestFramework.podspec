@@ -119,7 +119,7 @@ A longer description of TestPod..
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-s.vendored_frameworks = "Library/TestFramework.framework"
+s.vendored_frameworks = "TestFramework.framework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
