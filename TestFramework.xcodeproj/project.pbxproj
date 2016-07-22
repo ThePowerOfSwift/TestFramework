@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B9FBB7AE1D42524D007A6095 /* Aggregate Lib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B9FBB7AF1D42524D007A6095 /* Build configuration list for PBXAggregateTarget "Aggregate Lib" */;
+			buildPhases = (
+				B9FBB7B21D42525E007A6095 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Aggregate Lib";
+			productName = "Aggregate Lib";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		B9838ADD1D3D597300E4B501 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B9838ADC1D3D597300E4B501 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9838AE61D3D599200E4B501 /* InsertManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B9838AE41D3D599200E4B501 /* InsertManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -142,6 +156,9 @@
 					B9838AD81D3D597300E4B501 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					B9FBB7AE1D42524D007A6095 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = B9838AD31D3D597200E4B501 /* Build configuration list for PBXProject "TestFramework" */;
@@ -157,6 +174,7 @@
 			projectRoot = "";
 			targets = (
 				B9838AD81D3D597300E4B501 /* TestFramework */,
+				B9FBB7AE1D42524D007A6095 /* Aggregate Lib */,
 			);
 		};
 /* End PBXProject section */
@@ -203,6 +221,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestFramework/Pods-TestFramework-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		B9FBB7B21D42525E007A6095 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "UNIVERSAL_OUTPUTFOLDER=${PROJECT_DIR}/../TestPod\n\nxcodebuild -workspace ${PROJECT_NAME}.xcworkspace -scheme ${PROJECT_NAME} -sdk iphonesimulator -configuration ${CONFIGURATION}\nxcodebuild -workspace ${PROJECT_NAME}.xcworkspace -scheme ${PROJECT_NAME} -sdk iphoneos -configuration ${CONFIGURATION}\n\nrm -rf \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\"\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\"\n\n\n# combine lib files for various platforms into one\nlipo -create \"${BUILD_DIR}/Debug-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/Debug-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -320,6 +351,7 @@
 				INFOPLIST_FILE = TestFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dfpgroup.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -343,6 +375,20 @@
 			};
 			name = Release;
 		};
+		B9FBB7B01D42524D007A6095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9FBB7B11D42524D007A6095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -363,6 +409,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		B9FBB7AF1D42524D007A6095 /* Build configuration list for PBXAggregateTarget "Aggregate Lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FBB7B01D42524D007A6095 /* Debug */,
+				B9FBB7B11D42524D007A6095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

@@ -29,7 +29,7 @@
 }
 
 - (void) startManager {
-    NSLog(@"Manager is ronning");
+    NSLog(@"Manager is running");
     _isEnabled = YES;
 }
 
@@ -44,15 +44,15 @@
 
 -(void) showMessageInViewController:(UIViewController *)viewController {
     if (_isEnabled) {
-        /*
+        
         NSBundle* frameworkBundle = [NSBundle bundleForClass:[self class]];
         CustomView *csView = [[frameworkBundle loadNibNamed:@"CustomView" owner:self options:nil] firstObject];
         csView.frame = CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height);
         [viewController.view addSubview:csView];
-        */
+        
         [UIAlertView showWithTitle:@"" message:@"Hide this?" cancelButtonTitle:@"No" otherButtonTitles:@[@"Yes"] tapBlock:^(UIAlertView * _Nonnull alertView, NSInteger buttonIndex) {
             if (buttonIndex != alertView.cancelButtonIndex) {
-                NSLog(@"hey");
+                [csView removeFromSuperview];
             }
         }];
     }
