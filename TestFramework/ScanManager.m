@@ -28,7 +28,11 @@
     return sharedManager;
 }
 
-/*
+- (void)doThing {
+    NSLog(@"Did it");
+}
+
+
 -(void) showMessageInViewController:(UIViewController *)viewController {
     if (_isEnabled) {
         
@@ -44,6 +48,5 @@
         }];
     }
 }
-*/
 
 @end

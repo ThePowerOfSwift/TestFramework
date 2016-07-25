@@ -13,5 +13,7 @@
 
 +(instancetype) sharedManager;
 
+- (void)doThing;
+-(void) showMessageInViewController:(UIViewController *)viewController;
 
 @end
