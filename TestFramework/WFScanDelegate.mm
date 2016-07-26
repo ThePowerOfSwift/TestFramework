@@ -42,7 +42,7 @@ void displayDebugMessage (const char *str) {
         self.filter = [GPUImageAdaptiveThresholdFilter new];
         
         //can't use constant here bc don't want to include Constants.h because this is objc++ and it would break refactoring, modules, other stuff...
-        float blurRadius = [[NSUserDefaults standardUserDefaults] floatForKey:@"debug_gpu_blur_radius"];
+        float blurRadius = 4; //[[NSUserDefaults standardUserDefaults] floatForKey:@"debug_gpu_blur_radius"];
         self.filter.blurRadiusInPixels = blurRadius;
     }
     return self;
@@ -118,7 +118,7 @@ void displayDebugMessage (const char *str) {
     
     NSDictionary *iOSResultsDict;
     
-    bool lineGroupingDisabled = [[NSUserDefaults standardUserDefaults] boolForKey:@"disablelinegrouping"];
+    bool lineGroupingDisabled = false; //[[NSUserDefaults standardUserDefaults] boolForKey:@"disablelinegrouping"];
     
     __block bool debugOCR = [[NSUserDefaults standardUserDefaults] boolForKey:@"showtext"];
     __block NSString *rawResults = [NSMutableString string];

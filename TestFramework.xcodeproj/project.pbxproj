@@ -21,7 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		94FB5E568CBDB11601760F90 /* libPods-TestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5ECDD060FB863F213942CA6 /* libPods-TestFramework.a */; };
+		B97D34AF1D47287C00D594C0 /* IMG_2924.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B97D34AE1D47287C00D594C0 /* IMG_2924.jpeg */; };
 		B9838ADD1D3D597300E4B501 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B9838ADC1D3D597300E4B501 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9838AE61D3D599200E4B501 /* ScanManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B9838AE41D3D599200E4B501 /* ScanManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9838AE71D3D599200E4B501 /* ScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B9838AE51D3D599200E4B501 /* ScanManager.m */; };
@@ -64,11 +64,14 @@
 		B9C3B70D1D4676BA00B40FFB /* pcre.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C3B70C1D4676BA00B40FFB /* pcre.h */; };
 		B9C3B7101D46770300B40FFB /* WFRetailer.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C3B70E1D46770300B40FFB /* WFRetailer.h */; };
 		B9C3B7111D46770300B40FFB /* WFRetailer.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B70F1D46770300B40FFB /* WFRetailer.m */; };
+		DDA266F11876713E2F5ACFDB /* Pods_TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9288E244C99FA64544345C9E /* Pods_TestFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0911D9DC73919164C6297199 /* Pods-TestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestFramework/Pods-TestFramework.release.xcconfig"; sourceTree = "<group>"; };
 		5AF6604DD86257551AECB923 /* Pods-TestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestFramework/Pods-TestFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		9288E244C99FA64544345C9E /* Pods_TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97D34AE1D47287C00D594C0 /* IMG_2924.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2924.jpeg; sourceTree = "<group>"; };
 		B9838AD91D3D597300E4B501 /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9838ADC1D3D597300E4B501 /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
 		B9838ADE1D3D597300E4B501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,7 +116,6 @@
 		B9C3B70C1D4676BA00B40FFB /* pcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre.h; path = "ReceiptParser/pcre-8.36/pcre.h"; sourceTree = SOURCE_ROOT; };
 		B9C3B70E1D46770300B40FFB /* WFRetailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFRetailer.h; sourceTree = "<group>"; };
 		B9C3B70F1D46770300B40FFB /* WFRetailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFRetailer.m; sourceTree = "<group>"; };
-		C5ECDD060FB863F213942CA6 /* libPods-TestFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9C3B6F91D46763800B40FFB /* libpcre-8.36.a in Frameworks */,
-				94FB5E568CBDB11601760F90 /* libPods-TestFramework.a in Frameworks */,
+				DDA266F11876713E2F5ACFDB /* Pods_TestFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +134,7 @@
 		B0582A8CDE5E2084DE12C77D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C5ECDD060FB863F213942CA6 /* libPods-TestFramework.a */,
+				9288E244C99FA64544345C9E /* Pods_TestFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,6 +170,7 @@
 				B9838AE91D3D5AAE00E4B501 /* CustomView.m */,
 				B9838AEC1D3D5B3F00E4B501 /* CustomView.xib */,
 				B9838AEE1D3D5BAD00E4B501 /* splash@2x.png */,
+				B97D34AE1D47287C00D594C0 /* IMG_2924.jpeg */,
 			);
 			path = TestFramework;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9838AED1D3D5B3F00E4B501 /* CustomView.xib in Resources */,
+				B97D34AF1D47287C00D594C0 /* IMG_2924.jpeg in Resources */,
 				B9838AEF1D3D5BAD00E4B501 /* splash@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +449,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"DPMODE=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
