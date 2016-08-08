@@ -1,5 +1,5 @@
 //
-//  ScanManager.h
+//  WFScanManager.h
 //  TestFramework
 //
 //  Created by Danny Panzer on 7/18/16.
@@ -9,13 +9,18 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface ScanManager : NSObject
+#import "WFScanOptions.h"
+#import "WFScanResultsDelegate.h"
+
+@interface WFScanManager : NSObject
 
 +(instancetype) sharedManager;
 
 - (void)ocrTestImage;
 
-- (void)ocrImage:(UIImage*)img withCompletion:(void(^)(NSDictionary*, NSError*))completion;
+- (void)directScanReceiptImage:(UIImage*)img
+                    scanOptions:(WFScanOptions*)scanOptions
+                   withDelegate:(NSObject<WFScanResultsDelegate>*)delegate;
 
 @property (strong, atomic) NSString *blinkLicenseKey;
 

@@ -21,14 +21,21 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		B9174CE11D584FE400AD0A10 /* WFScanResultsDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B9174CDF1D584FE400AD0A10 /* WFScanResultsDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9174CE51D58508B00AD0A10 /* WFScanResults.h in Headers */ = {isa = PBXBuildFile; fileRef = B9174CE31D58508B00AD0A10 /* WFScanResults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9174CE61D58508B00AD0A10 /* WFScanResults.m in Sources */ = {isa = PBXBuildFile; fileRef = B9174CE41D58508B00AD0A10 /* WFScanResults.m */; };
 		B97D34AF1D47287C00D594C0 /* IMG_2924.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B97D34AE1D47287C00D594C0 /* IMG_2924.jpeg */; };
 		B9838ADD1D3D597300E4B501 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B9838ADC1D3D597300E4B501 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9838AE61D3D599200E4B501 /* ScanManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B9838AE41D3D599200E4B501 /* ScanManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9838AE71D3D599200E4B501 /* ScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B9838AE51D3D599200E4B501 /* ScanManager.m */; };
+		B9838AE61D3D599200E4B501 /* WFScanManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B9838AE41D3D599200E4B501 /* WFScanManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9838AE71D3D599200E4B501 /* WFScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B9838AE51D3D599200E4B501 /* WFScanManager.m */; };
 		B9838AEA1D3D5AAE00E4B501 /* CustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = B9838AE81D3D5AAE00E4B501 /* CustomView.h */; };
 		B9838AEB1D3D5AAE00E4B501 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9838AE91D3D5AAE00E4B501 /* CustomView.m */; };
 		B9838AED1D3D5B3F00E4B501 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9838AEC1D3D5B3F00E4B501 /* CustomView.xib */; };
 		B9838AEF1D3D5BAD00E4B501 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9838AEE1D3D5BAD00E4B501 /* splash@2x.png */; };
+		B99225AF1D584858003D71AC /* WFScanOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = B99225AD1D584858003D71AC /* WFScanOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B99225B01D584858003D71AC /* WFScanOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = B99225AE1D584858003D71AC /* WFScanOptions.m */; };
+		B99225B31D584A71003D71AC /* WFProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = B99225B11D584A71003D71AC /* WFProduct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B99225B41D584A71003D71AC /* WFProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = B99225B21D584A71003D71AC /* WFProduct.m */; };
 		B9C3B6E11D46762A00B40FFB /* common.hh in Headers */ = {isa = PBXBuildFile; fileRef = B9C3B6CA1D46762A00B40FFB /* common.hh */; };
 		B9C3B6E21D46762A00B40FFB /* Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9C3B6CB1D46762A00B40FFB /* Image.cpp */; };
 		B9C3B6E31D46762A00B40FFB /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C3B6CC1D46762A00B40FFB /* Image.h */; };
@@ -71,16 +78,23 @@
 		0911D9DC73919164C6297199 /* Pods-TestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestFramework/Pods-TestFramework.release.xcconfig"; sourceTree = "<group>"; };
 		5AF6604DD86257551AECB923 /* Pods-TestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestFramework/Pods-TestFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		9288E244C99FA64544345C9E /* Pods_TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9174CDF1D584FE400AD0A10 /* WFScanResultsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFScanResultsDelegate.h; sourceTree = "<group>"; };
+		B9174CE31D58508B00AD0A10 /* WFScanResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFScanResults.h; sourceTree = "<group>"; };
+		B9174CE41D58508B00AD0A10 /* WFScanResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFScanResults.m; sourceTree = "<group>"; };
 		B97D34AE1D47287C00D594C0 /* IMG_2924.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2924.jpeg; sourceTree = "<group>"; };
 		B9838AD91D3D597300E4B501 /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9838ADC1D3D597300E4B501 /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
 		B9838ADE1D3D597300E4B501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9838AE41D3D599200E4B501 /* ScanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanManager.h; sourceTree = "<group>"; };
-		B9838AE51D3D599200E4B501 /* ScanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanManager.m; sourceTree = "<group>"; };
+		B9838AE41D3D599200E4B501 /* WFScanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFScanManager.h; sourceTree = "<group>"; };
+		B9838AE51D3D599200E4B501 /* WFScanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFScanManager.m; sourceTree = "<group>"; };
 		B9838AE81D3D5AAE00E4B501 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
 		B9838AE91D3D5AAE00E4B501 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 		B9838AEC1D3D5B3F00E4B501 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 		B9838AEE1D3D5BAD00E4B501 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
+		B99225AD1D584858003D71AC /* WFScanOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFScanOptions.h; sourceTree = "<group>"; };
+		B99225AE1D584858003D71AC /* WFScanOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFScanOptions.m; sourceTree = "<group>"; };
+		B99225B11D584A71003D71AC /* WFProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFProduct.h; sourceTree = "<group>"; };
+		B99225B21D584A71003D71AC /* WFProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFProduct.m; sourceTree = "<group>"; };
 		B9C3B6CA1D46762A00B40FFB /* common.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = common.hh; path = ReceiptParser/common.hh; sourceTree = SOURCE_ROOT; };
 		B9C3B6CB1D46762A00B40FFB /* Image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Image.cpp; path = ReceiptParser/Image.cpp; sourceTree = SOURCE_ROOT; };
 		B9C3B6CC1D46762A00B40FFB /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Image.h; path = ReceiptParser/Image.h; sourceTree = SOURCE_ROOT; };
@@ -139,6 +153,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B9174CDE1D584EDC00AD0A10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B97D34AE1D47287C00D594C0 /* IMG_2924.jpeg */,
+				B9838AEE1D3D5BAD00E4B501 /* splash@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		B9838ACF1D3D597200E4B501 = {
 			isa = PBXGroup;
 			children = (
@@ -160,17 +183,22 @@
 		B9838ADB1D3D597300E4B501 /* TestFramework */ = {
 			isa = PBXGroup;
 			children = (
-				B9C3B7071D46765600B40FFB /* WindfallFiles */,
-				B9C3B6C91D46761000B40FFB /* ReceiptParser */,
+				B9C3B7071D46765600B40FFB /* Internal */,
 				B9838ADC1D3D597300E4B501 /* TestFramework.h */,
-				B9838ADE1D3D597300E4B501 /* Info.plist */,
-				B9838AE41D3D599200E4B501 /* ScanManager.h */,
-				B9838AE51D3D599200E4B501 /* ScanManager.m */,
+				B9838AE41D3D599200E4B501 /* WFScanManager.h */,
+				B9838AE51D3D599200E4B501 /* WFScanManager.m */,
+				B99225AD1D584858003D71AC /* WFScanOptions.h */,
+				B99225AE1D584858003D71AC /* WFScanOptions.m */,
+				B99225B11D584A71003D71AC /* WFProduct.h */,
+				B99225B21D584A71003D71AC /* WFProduct.m */,
+				B9174CDF1D584FE400AD0A10 /* WFScanResultsDelegate.h */,
+				B9174CE31D58508B00AD0A10 /* WFScanResults.h */,
+				B9174CE41D58508B00AD0A10 /* WFScanResults.m */,
 				B9838AE81D3D5AAE00E4B501 /* CustomView.h */,
 				B9838AE91D3D5AAE00E4B501 /* CustomView.m */,
 				B9838AEC1D3D5B3F00E4B501 /* CustomView.xib */,
-				B9838AEE1D3D5BAD00E4B501 /* splash@2x.png */,
-				B97D34AE1D47287C00D594C0 /* IMG_2924.jpeg */,
+				B9174CDE1D584EDC00AD0A10 /* Resources */,
+				B9838ADE1D3D597300E4B501 /* Info.plist */,
 			);
 			path = TestFramework;
 			sourceTree = "<group>";
@@ -221,15 +249,16 @@
 			name = single_letter;
 			sourceTree = "<group>";
 		};
-		B9C3B7071D46765600B40FFB /* WindfallFiles */ = {
+		B9C3B7071D46765600B40FFB /* Internal */ = {
 			isa = PBXGroup;
 			children = (
+				B9C3B6C91D46761000B40FFB /* ReceiptParser */,
 				B9C3B70E1D46770300B40FFB /* WFRetailer.h */,
 				B9C3B70F1D46770300B40FFB /* WFRetailer.m */,
 				B9C3B7081D46766200B40FFB /* WFScanDelegate.h */,
 				B9C3B7091D46766200B40FFB /* WFScanDelegate.mm */,
 			);
-			name = WindfallFiles;
+			name = Internal;
 			sourceTree = "<group>";
 		};
 		F4174CAA3A07240B5F6C3805 /* Pods */ = {
@@ -249,14 +278,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9C3B6E71D46762A00B40FFB /* ocr.hh in Headers */,
+				B9174CE51D58508B00AD0A10 /* WFScanResults.h in Headers */,
+				B9174CE11D584FE400AD0A10 /* WFScanResultsDelegate.h in Headers */,
+				B99225B31D584A71003D71AC /* WFProduct.h in Headers */,
 				B9C3B70D1D4676BA00B40FFB /* pcre.h in Headers */,
+				B99225AF1D584858003D71AC /* WFScanOptions.h in Headers */,
+				B9C3B70A1D46766200B40FFB /* WFScanDelegate.h in Headers */,
 				B9C3B6EF1D46762A00B40FFB /* OCRUtils.h in Headers */,
 				B9C3B6F51D46762A00B40FFB /* receiptParser.hh in Headers */,
 				B9C3B6F01D46762A00B40FFB /* OCRUtils.hh in Headers */,
 				B9C3B6F31D46762A00B40FFB /* PcreMiniCpp.h in Headers */,
 				B9C3B6EB1D46762A00B40FFB /* OCRPage.hh in Headers */,
 				B9C3B7051D46764C00B40FFB /* SingleLetterTests.h in Headers */,
-				B9C3B70A1D46766200B40FFB /* WFScanDelegate.h in Headers */,
 				B9C3B7101D46770300B40FFB /* WFRetailer.h in Headers */,
 				B9C3B6E91D46762A00B40FFB /* OCRClass.hh in Headers */,
 				B9C3B7061D46764C00B40FFB /* slcommon.h in Headers */,
@@ -264,7 +297,7 @@
 				B9C3B6E11D46762A00B40FFB /* common.hh in Headers */,
 				B9838ADD1D3D597300E4B501 /* TestFramework.h in Headers */,
 				B9C3B6E61D46762A00B40FFB /* LineValidation.hh in Headers */,
-				B9838AE61D3D599200E4B501 /* ScanManager.h in Headers */,
+				B9838AE61D3D599200E4B501 /* WFScanManager.h in Headers */,
 				B9838AEA1D3D5AAE00E4B501 /* CustomView.h in Headers */,
 				B9C3B6E31D46762A00B40FFB /* Image.h in Headers */,
 				B9C3B6EC1D46762A00B40FFB /* OCRResults.h in Headers */,
@@ -397,16 +430,19 @@
 			files = (
 				B9C3B7041D46764C00B40FFB /* SingleLetterTests.cpp in Sources */,
 				B9C3B6E21D46762A00B40FFB /* Image.cpp in Sources */,
-				B9838AE71D3D599200E4B501 /* ScanManager.m in Sources */,
+				B9838AE71D3D599200E4B501 /* WFScanManager.m in Sources */,
 				B9C3B6EE1D46762A00B40FFB /* OCRUtils.cpp in Sources */,
 				B9C3B7031D46764C00B40FFB /* decision_tree.cpp in Sources */,
 				B9C3B7111D46770300B40FFB /* WFRetailer.m in Sources */,
+				B99225B01D584858003D71AC /* WFScanOptions.m in Sources */,
 				B9C3B6F61D46762A00B40FFB /* RegexUtils.cpp in Sources */,
 				B9C3B70B1D46766200B40FFB /* WFScanDelegate.mm in Sources */,
+				B99225B41D584A71003D71AC /* WFProduct.m in Sources */,
 				B9C3B6E51D46762A00B40FFB /* LineValidation.cpp in Sources */,
 				B9C3B6F21D46762A00B40FFB /* PcreMiniCpp.cpp in Sources */,
 				B9C3B6EA1D46762A00B40FFB /* OCRPage.cpp in Sources */,
 				B9C3B6ED1D46762A00B40FFB /* OCRResults.mm in Sources */,
+				B9174CE61D58508B00AD0A10 /* WFScanResults.m in Sources */,
 				B9C3B7011D46764C00B40FFB /* cimage.cpp in Sources */,
 				B9C3B6F41D46762A00B40FFB /* receiptParser.cpp in Sources */,
 				B9C3B6E81D46762A00B40FFB /* OCRClass.cpp in Sources */,
